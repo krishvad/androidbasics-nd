@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.udacitymusicapp.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pod_casts_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#3F51B5"
+            android:text="Pod casts"
+            android:layout_marginTop="10dp"
+            android:textSize="45sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+             />
+
+        <TextView
+            android:id="@+id/audio_books_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#303F9F"
+            android:text="Audio Books"
+            android:layout_marginTop="10dp"
+            android:textSize="45sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/music_lib_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#1A237E"
+            android:text="Music Library"
+            android:layout_marginTop="10dp"
+            android:textSize="45sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
+
+
+

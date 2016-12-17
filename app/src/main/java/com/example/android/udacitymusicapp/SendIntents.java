@@ -1,6 +1,5 @@
 package com.example.android.udacitymusicapp;
 
-import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
@@ -15,7 +14,8 @@ public class SendIntents extends AppCompatActivity{
      * @param youtubeId - id of the youtube video
      * @return - Intent to start youtube app with the video passed as input
      */
-    public static Intent sendAppIntent (CharSequence youtubeId) {
+    final static String youtubeUrl = "https://www.youtube.com/watch?v=";
+    public static Intent sendAppIntent (String youtubeId) {
         Intent youtubeIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:"+youtubeId));
         return youtubeIntent;
     }
@@ -25,7 +25,7 @@ public class SendIntents extends AppCompatActivity{
      * @return - Intent to open the browser with the URL passed to the mehtod
      */
     public static Intent sendBrowserIntent (String urlToBeInvoked) {
-        Intent browserIntent= new Intent(Intent.ACTION_VIEW, Uri.parse(urlToBeInvoked));
+        Intent browserIntent= new Intent(Intent.ACTION_VIEW, Uri.parse(youtubeUrl + urlToBeInvoked));
         return  browserIntent;
     }
 

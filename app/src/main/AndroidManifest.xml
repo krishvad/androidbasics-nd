@@ -18,7 +18,7 @@
 
         <activity
             android:name=".PopCulture"
-            android:label="Audio books"
+            android:label="Best of all Pop"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

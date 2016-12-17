@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         audioBooks.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent audioBooksIntent = new Intent(MainActivity.this, FamousPop.class);
+                Intent audioBooksIntent = new Intent(MainActivity.this, PopCulture.class);
                 startActivity(audioBooksIntent);
             }
         });
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         podCasts.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent podCastsIntent = new Intent(MainActivity.this, PodCasts.class);
+                Intent podCastsIntent = new Intent(MainActivity.this, TeluguSongs.class);
                 startActivity(podCastsIntent);
             }
         });
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         musicLibrary.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent musicLibraryIntent = new Intent(MainActivity.this, GeneralMusic.class);
+                Intent musicLibraryIntent = new Intent(MainActivity.this, Top40.class);
                 startActivity(musicLibraryIntent);
             }
         });

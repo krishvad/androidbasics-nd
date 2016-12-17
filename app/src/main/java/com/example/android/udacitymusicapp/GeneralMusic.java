@@ -20,7 +20,7 @@ public class GeneralMusic extends AppCompatActivity{
     @Override
     public void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.general_music);
+        setContentView(R.layout.top_40);
         TextView pop_song_1 = (TextView) findViewById(R.id.famous_pop_1);
         pop_song_1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,7 +29,10 @@ public class GeneralMusic extends AppCompatActivity{
                     startActivity(SendIntents.sendAppIntent("DBcVPsTmG5I"));
                 } catch (ActivityNotFoundException e) {
                     CharSequence exceptionMessage = "Youtube is a great app. you should try it music lover";
-                    Toast youtubeNotFound = Toast.makeText(getApplicationContext(), exceptionMessage, Toast.LENGTH_LONG);
+                    Toast youtubeNotFound = Toast.makeText(
+                            getApplicationContext(),
+                            exceptionMessage,
+                            Toast.LENGTH_LONG);
                     youtubeNotFound.show();
 
                     startActivity(SendIntents.sendBrowserIntent("https://www.youtube.com/watch?v="+"fRh_vgS2dFE"));

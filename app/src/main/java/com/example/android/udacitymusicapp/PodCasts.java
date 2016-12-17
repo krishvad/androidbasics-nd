@@ -11,6 +11,6 @@ public class PodCasts extends AppCompatActivity{
     @Override
     public void onCreate (Bundle savedInstance) {
         super.onCreate(savedInstance);
-        setContentView(R.layout.pod_casts);
+        setContentView(R.layout.telugu_songs);
     }
 }

@@ -17,7 +17,7 @@
         </activity>
 
         <activity
-            android:name=".FamousPop"
+            android:name=".PopCulture"
             android:label="Audio books"
             android:parentActivityName=".MainActivity">
             <meta-data
@@ -27,7 +27,7 @@
 
         </activity>
         <activity
-            android:name=".PodCasts"
+            android:name=".TeluguSongs"
             android:label="Pod casts"
             android:parentActivityName=".MainActivity">
 
@@ -37,7 +37,7 @@
         </activity>
 
         <activity
-            android:name=".GeneralMusic"
+            android:name=".Top40"
             android:parentActivityName=".MainActivity"
             android:label = "General Music">
             <meta-data

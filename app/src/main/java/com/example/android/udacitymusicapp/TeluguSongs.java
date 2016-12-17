@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
  * Created by leela_vadde on 12/11/16.
  */
 
-public class PodCasts extends AppCompatActivity{
+public class TeluguSongs extends AppCompatActivity{
     @Override
     public void onCreate (Bundle savedInstance) {
         super.onCreate(savedInstance);

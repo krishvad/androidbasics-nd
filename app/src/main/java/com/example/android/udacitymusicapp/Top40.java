@@ -8,9 +8,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.apmem.tools.layouts.FlowLayout;
 
-import java.util.ArrayList;
 
 /**
  * Created by leela_vadde on 12/11/16.

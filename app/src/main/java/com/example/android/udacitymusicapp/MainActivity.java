@@ -13,30 +13,39 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView audioBooks = (TextView) findViewById(R.id.audio_books_text_view);
-        audioBooks.setOnClickListener(new View.OnClickListener() {
+        TextView teluguSongsTextView = (TextView) findViewById(R.id.telugu_songs_text_view);
+        teluguSongsTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent audioBooksIntent = new Intent(MainActivity.this, PopCulture.class);
-                startActivity(audioBooksIntent);
+                Intent TeluguSongsIntent = new Intent(MainActivity.this, TeluguSongs.class);
+                startActivity(TeluguSongsIntent);
             }
         });
 
-        final TextView podCasts = (TextView) findViewById(R.id.pod_casts_text_view);
-        podCasts.setOnClickListener(new View.OnClickListener() {
+        final TextView popCultureTextView = (TextView) findViewById(R.id.pop_culture_text_view);
+        popCultureTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent podCastsIntent = new Intent(MainActivity.this, TeluguSongs.class);
-                startActivity(podCastsIntent);
+                Intent popCultureIntent = new Intent(MainActivity.this, PopCulture.class);
+                startActivity(popCultureIntent);
             }
         });
 
-        TextView musicLibrary = (TextView) findViewById(R.id.music_lib_text_view);
-        musicLibrary.setOnClickListener(new View.OnClickListener() {
+        TextView top40TextView = (TextView) findViewById(R.id.Top_40_text_view);
+        top40TextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent musicLibraryIntent = new Intent(MainActivity.this, Top40.class);
-                startActivity(musicLibraryIntent);
+                Intent top40Intent = new Intent(MainActivity.this, Top40.class);
+                startActivity(top40Intent);
+            }
+        });
+
+        TextView classicSongsTextView = (TextView) findViewById(R.id.classic_text_view);
+        classicSongsTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent classSongsIntent = new Intent(MainActivity.this, ClassicSongs.class);
+                startActivity(classSongsIntent);
             }
         });
     }

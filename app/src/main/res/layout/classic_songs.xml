@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pop_culture_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/classic_1"
+            android:text = "Michael Jackson - Beat It"
+            style="@style/TextView"/>
+
+        <TextView
+            android:id="@+id/classic_2"
+            android:text = "Whitney Houston - I Will Always Love You"
+            style="@style/TextView" />
+
+        <TextView
+            android:id="@+id/classic_3"
+            style="@style/TextView"
+            android:text = "Prince - Daddy Cool"/>
+
+        <TextView
+            android:id="@+id/classic_4"
+            style="@style/TextView"
+            android:text="Madonna - Crazy For You" />
+
+    </LinearLayout>
+</ScrollView>

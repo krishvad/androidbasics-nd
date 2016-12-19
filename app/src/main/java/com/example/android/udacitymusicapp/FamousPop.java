@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
+import com.example.android.common.SendTextViewIntents;
+
 
 public class FamousPop extends AppCompatActivity {
     String[] famousPopYouTubeIds = {"Ym0hZG-zNOk", "3JWTaaS7LdU", "nf9tUjp7208", "Zn5OJGucveg"};
@@ -12,7 +14,7 @@ public class FamousPop extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.pop_culture);
+        setContentView(R.layout.famous_pop);
         Context context = getApplicationContext();
 
 

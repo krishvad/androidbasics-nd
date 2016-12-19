@@ -45,6 +45,15 @@
                 android:value=".MainActivity"/>
         </activity>
 
+        <activity
+            android:name=".ClassicSongs"
+            android:parentActivityName=".MainActivity"
+            android:label="Classic songs">
+            <meta-data
+                android:name="com.android.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
     </application>
 
 </manifest>

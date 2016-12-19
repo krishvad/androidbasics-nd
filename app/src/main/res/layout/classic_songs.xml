@@ -14,23 +14,23 @@
 
         <TextView
             android:id="@+id/classic_1"
-            android:text = "Michael Jackson - Beat It"
+            android:text = "Tab Hunter - Young Love"
             style="@style/TextView"/>
 
         <TextView
             android:id="@+id/classic_2"
-            android:text = "Whitney Houston - I Will Always Love You"
+            android:text = "Elvis Presley - Love Letters"
             style="@style/TextView" />
 
         <TextView
             android:id="@+id/classic_3"
             style="@style/TextView"
-            android:text = "Prince - Daddy Cool"/>
+            android:text = "Journey - Faithfully"/>
 
         <TextView
             android:id="@+id/classic_4"
             style="@style/TextView"
-            android:text="Madonna - Crazy For You" />
+            android:text="Metallica - Nothing Else Matters" />
 
     </LinearLayout>
 </ScrollView>

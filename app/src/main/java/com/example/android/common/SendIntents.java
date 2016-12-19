@@ -1,4 +1,4 @@
-package com.example.android.udacitymusicapp;
+package com.example.android.common;
 
 import android.content.Intent;
 import android.net.Uri;

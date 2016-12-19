@@ -1,9 +1,8 @@
-package com.example.android.udacitymusicapp;
+package com.example.android.common;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
@@ -12,10 +11,10 @@ import android.widget.Toast;
 /**
  * Class that sends intents
  */
-public class SendTextViewIntents extends AppCompatActivity {
+public class SendTextViewIntents {
     String youtubeId;
     Context context;
-    private String youtubeNotFoundMessage = "YouTube is great, you should try it";
+    private String youtubeNotFoundMessage = "YouTube App is great, you should try it!";
 
     /**
      * Constructor of this class to initialize class variables
@@ -28,7 +27,7 @@ public class SendTextViewIntents extends AppCompatActivity {
     }
 
     /**
-     *
+     * Creating listeners on text view and sending intents based on the textview clicked on
      * @param textView - TextView to create OnClickListers for
      */
     public void createOnClickListers (TextView textView) {

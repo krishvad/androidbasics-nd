@@ -1,8 +1,8 @@
 package com.example.android.udacitymusicapp;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
@@ -12,15 +12,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        TextView teluguSongsTextView = (TextView) findViewById(R.id.telugu_songs_text_view);
-        teluguSongsTextView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent TeluguSongsIntent = new Intent(MainActivity.this, TeluguSongs.class);
-                startActivity(TeluguSongsIntent);
-            }
-        });
 
         final TextView popCultureTextView = (TextView) findViewById(R.id.pop_culture_text_view);
         popCultureTextView.setOnClickListener(new View.OnClickListener() {
@@ -48,5 +39,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(classSongsIntent);
             }
         });
+
     }
 }

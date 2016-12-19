@@ -1,6 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
 
-</LinearLayout>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/top_40_parent"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ScrollView android:id="@+id/top_40_scroll_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/pop_culture_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/top_40_1"
+                android:text = "@string/ch_my_way"
+                style="@style/TextView"
+                android:background="@color/top_40_text_view"/>
+
+            <TextView
+                android:id="@+id/top_40_2"
+                android:text = "@string/bs_slumber_party"
+                style="@style/TextView"
+                android:background="@color/top_40_text_view"/>
+
+            <TextView
+                android:id="@+id/top_40_3"
+                style="@style/TextView"
+                android:text="@string/b_formation"
+                android:background="@color/top_40_text_view"/>
+
+            <TextView
+                android:id="@+id/top_40_4"
+                style="@style/TextView"
+                android:text="@string/kp_rise"
+                android:background="@color/top_40_text_view"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_below="@id/classic_songs_scroll_view"
+        android:gravity="bottom|center"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/go_to_pop"
+            style="@style/ButtonStyle"
+            android:text="@string/go_to_pop"
+            android:background="#FF5722" />
+
+        <Button
+            android:id="@+id/go_to_classic"
+            style="@style/ButtonStyle"
+            android:text="@string/go_to_classic"
+            android:background="#212121"
+            android:layout_toRightOf="@id/go_to_pop" />
+
+        <Button
+            android:id="@+id/go_home"
+            style="@style/ButtonStyle"
+            android:text="@string/go_home"
+            android:background="@color/colorPrimary"
+            android:layout_toRightOf="@id/go_to_classic" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

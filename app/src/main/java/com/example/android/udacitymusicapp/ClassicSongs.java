@@ -1,8 +1,11 @@
 package com.example.android.udacitymusicapp;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.android.common.SendTextViewIntents;
@@ -41,5 +44,32 @@ public class ClassicSongs extends AppCompatActivity {
         //Creating an object for SendTextViewIntents to create and send an event when a TextView is tapped
         SendTextViewIntents nothingElseMetallicaIntent = new SendTextViewIntents(context, classicYouTubeIds[3]);
         nothingElseMetallicaIntent.createOnClickListers(nothingElseMetallica);
+
+        Button goToHome = (Button) findViewById(R.id.go_home);
+        goToHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent goHomeIntent = new Intent(ClassicSongs.this,MainActivity.class);
+                startActivity(goHomeIntent);
+            }
+        });
+
+        Button goToClassic = (Button) findViewById(R.id.go_to_top40);
+        goToClassic.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent goToClassicIntent = new Intent(ClassicSongs.this,Top40.class);
+                startActivity(goToClassicIntent);
+            }
+        });
+
+        Button goToFamousPop = (Button) findViewById(R.id.go_to_pop);
+        goToFamousPop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent goToFamousPopIntent = new Intent(ClassicSongs.this,FamousPop.class);
+                startActivity(goToFamousPopIntent);
+            }
+        });
     }
 }

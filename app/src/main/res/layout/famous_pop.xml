@@ -8,29 +8,29 @@
     <LinearLayout
         android:id="@+id/pop_culture_parent"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/classic_1"
-            android:text = "Tab Hunter - Young Love"
+            android:id="@+id/famous_pop_1"
+            android:text = "Michael Jackson - Beat It"
             style="@style/TextView"/>
 
         <TextView
-            android:id="@+id/classic_2"
-            android:text = "Elvis Presley - Love Letters"
+            android:id="@+id/famous_pop_2"
+            android:text = "Whitney Houston - I Will Always Love You"
             style="@style/TextView" />
 
         <TextView
-            android:id="@+id/classic_3"
+            android:id="@+id/famous_pop_3"
             style="@style/TextView"
-            android:text = "Journey - Faithfully"/>
+            android:text = "Prince - Daddy Cool"/>
 
         <TextView
-            android:id="@+id/classic_4"
+            android:id="@+id/famous_pop_4"
             style="@style/TextView"
-            android:text="Metallica - Nothing Else Matters" />
+            android:text="Madonna - Crazy For You" />
 
     </LinearLayout>
 </ScrollView>

@@ -17,7 +17,7 @@
         </activity>
 
         <activity
-            android:name=".PopCulture"
+            android:name=".FamousPop"
             android:label="Best of all Pop"
             android:parentActivityName=".MainActivity">
             <meta-data
@@ -40,6 +40,15 @@
             android:name=".Top40"
             android:parentActivityName=".MainActivity"
             android:label = "General Music">
+            <meta-data
+                android:name="com.android.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
+        <activity
+            android:name=".ClassicSongs"
+            android:parentActivityName=".MainActivity"
+            android:label="Classic songs">
             <meta-data
                 android:name="com.android.PARENT_ACTIVITY"
                 android:value=".MainActivity"/>

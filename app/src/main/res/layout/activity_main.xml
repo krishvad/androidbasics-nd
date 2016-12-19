@@ -13,25 +13,14 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/telugu_songs_text_view"
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:background="#3F51B5"
-            android:text="Telugu songs"
-            android:layout_marginTop="10dp"
-            android:textSize="45sp"
-            android:textColor="#FFFFFF"
-            android:gravity="center"
-             />
 
         <TextView
             android:id="@+id/pop_culture_text_view"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:background="#303F9F"
+            android:layout_height="100dp"
+            android:background="#FF5722"
             android:text="Pop Culture"
-            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
             android:textSize="45sp"
             android:textColor="#FFFFFF"
             android:gravity="center"/>
@@ -39,10 +28,10 @@
         <TextView
             android:id="@+id/Top_40_text_view"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:background="#1A237E"
+            android:layout_height="100dp"
+            android:background="#01579B"
             android:text="Top 40"
-            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
             android:textSize="45sp"
             android:textColor="#FFFFFF"
             android:gravity="center"/>
@@ -50,10 +39,10 @@
         <TextView
             android:id="@+id/classic_text_view"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:background="#1A237E"
+            android:layout_height="100dp"
+            android:background="#212121"
             android:text="Classic"
-            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
             android:textSize="45sp"
             android:textColor="#FFFFFF"
             android:gravity="center"/>

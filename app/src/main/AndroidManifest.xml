@@ -4,7 +4,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/img_thing"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -18,28 +18,21 @@
 
         <activity
             android:name=".FamousPop"
-            android:label="Best of all Pop"
-            android:parentActivityName=".MainActivity">
+            android:label="Famous pop songs"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/PopLayoutTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity">
             </meta-data>
 
         </activity>
-        <activity
-            android:name=".TeluguSongs"
-            android:label="Pod casts"
-            android:parentActivityName=".MainActivity">
-
-            <meta-data
-                android:name="com.android.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
 
         <activity
             android:name=".Top40"
             android:parentActivityName=".MainActivity"
-            android:label = "General Music">
+            android:label = "Top 40"
+            android:theme="@style/Top40LayoutTheme">
             <meta-data
                 android:name="com.android.PARENT_ACTIVITY"
                 android:value=".MainActivity"/>
@@ -48,7 +41,8 @@
         <activity
             android:name=".ClassicSongs"
             android:parentActivityName=".MainActivity"
-            android:label="Classic songs">
+            android:label="Classic songs"
+            android:theme="@style/ClassicLayoutTheme">
             <meta-data
                 android:name="com.android.PARENT_ACTIVITY"
                 android:value=".MainActivity"/>

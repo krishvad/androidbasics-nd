@@ -18,7 +18,7 @@
 
         <activity
             android:name=".FamousPop"
-            android:label="Famous pop songs"
+            android:label="@string/famous_pop"
             android:parentActivityName=".MainActivity"
             android:theme="@style/PopLayoutTheme">
             <meta-data
@@ -31,7 +31,7 @@
         <activity
             android:name=".Top40"
             android:parentActivityName=".MainActivity"
-            android:label = "Top 40"
+            android:label = "@string/top_40"
             android:theme="@style/Top40LayoutTheme">
             <meta-data
                 android:name="com.android.PARENT_ACTIVITY"
@@ -41,7 +41,7 @@
         <activity
             android:name=".ClassicSongs"
             android:parentActivityName=".MainActivity"
-            android:label="Classic songs"
+            android:label="@string/classic_songs"
             android:theme="@style/ClassicLayoutTheme">
             <meta-data
                 android:name="com.android.PARENT_ACTIVITY"

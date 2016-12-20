@@ -45,6 +45,7 @@ public class ClassicSongs extends AppCompatActivity {
         SendTextViewIntents nothingElseMetallicaIntent = new SendTextViewIntents(context, classicYouTubeIds[3]);
         nothingElseMetallicaIntent.createOnClickListers(nothingElseMetallica);
 
+        //Adding intents for Home button to take load activity_main.xml
         Button goToHome = (Button) findViewById(R.id.go_home);
         goToHome.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,6 +55,7 @@ public class ClassicSongs extends AppCompatActivity {
             }
         });
 
+        //Adding intents for "Go to Classic" button to take load classic_songs.xml layout
         Button goToClassic = (Button) findViewById(R.id.go_to_top40);
         goToClassic.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,6 +65,7 @@ public class ClassicSongs extends AppCompatActivity {
             }
         });
 
+        //Adding intents for "Go to Famous pop" button to load famous_pop.xml layout
         Button goToFamousPop = (Button) findViewById(R.id.go_to_pop);
         goToFamousPop.setOnClickListener(new View.OnClickListener() {
             @Override

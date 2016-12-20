@@ -6,12 +6,13 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarSize">@dimen/action_bar_height</item>
     </style>
 
     <!-- Famous pop layout  theme. -->
     <style name="PopLayoutTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">#FF5722</item>
+        <item name="colorPrimary">@color/colorPrimaryFamousPop</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
@@ -19,7 +20,7 @@
     <!-- Classic songs  layout  theme. -->
     <style name="ClassicLayoutTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimary">@color/colorPrimaryClassicSongs</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
@@ -27,29 +28,41 @@
     <!-- Top 40 songs  layout  theme. -->
     <style name="Top40LayoutTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">#01579B</item>
+        <item name="colorPrimary">@color/colorPrimaryTop40</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!--Common TextView styles-->
     <style name="TextView" parent="android:TextAppearance.Widget.TextView">
-        <item name="android:textColor">@color/popTextViewTextColor</item>
-        <item name="android:background">@color/popTextViewBackgroundColor</item>
+        <item name="android:textColor">@color/textViewTextColor</item>
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">40dp</item>
-        <item name="android:layout_margin">5dp</item>
-        <item name="android:padding">5dp</item>
+        <item name="android:layout_height">@dimen/text_view_height</item>
+        <item name="android:layout_margin">@dimen/text_view_margin</item>
+        <item name="android:textSize">@dimen/text_view_text_size</item>
+        <item name="android:padding">@dimen/text_view_padding</item>
     </style>
 
+    <!--activity_main.xml styles-->
+    <style name="TextViewsMainActivity" parent="android:TextAppearance.Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/layout_height</item>
+        <item name="android:textColor">@color/textViewTextColor</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:layout_margin">@dimen/text_view_margin</item>
+        <item name="android:gravity">center</item>
+    </style>
 
-    <style name="ButtonStyle">
-        <item name="android:layout_width">wrap_content</item>
+    <!--Common button styles-->
+    <style name="ButtonStyle" parent="Theme.AppCompat.Light">
+        <item name="android:layout_width">wrap_content</item>s
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_alignParentBottom">true</item>
-        <item name="android:padding">10dp</item>
-        <item name="android:layout_margin">10dp</item>
-        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:padding">@dimen/button_padding</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+        <item name="android:textColor">@color/textViewTextColor</item>
+
     </style>
 
 

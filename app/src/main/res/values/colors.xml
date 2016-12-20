@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#FF5252</color>
-    <!--<color name="colorPrimaryDark">#1976D2</color>-->
     <color name="colorPrimaryDark">#000000</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="popTextViewBackgroundColor">#78909C</color>
-    <color name="popTextViewTextColor">#FFFFFF</color>
+
+    <color name="textViewTextColor">#FFFFFF</color>
+
+    <!--classic_songs.xml TextView Bg color-->
+    <color name="classicSongsTextViewBackGround">#757575</color>
+    <color name="colorPrimaryClassicSongs">#212121</color>
 
 
-    <color name="classic_songs_text_view">#757575</color>
-    <color name="top_40_text_view">#2196F3</color>
-    <color name="famous_pop_text_view">#EF6C00</color>
+    <!--top_40.cml TextView Bg color-->
+    <color name="top40TextViewBackGround">#2196F3</color>
+    <color name="colorPrimaryTop40">#01579B</color>
+
+    <!--famous_pop.xml TextView bgColor-->
+    <color name="famousPopTextViewBackGround">#EF6C00</color>
+    <color name="colorPrimaryFamousPop">#FF5722</color>
+
+
 </resources>

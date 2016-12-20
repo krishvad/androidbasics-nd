@@ -49,6 +49,7 @@ public class FamousPop extends AppCompatActivity {
         SendTextViewIntents maddonaCrazyForYouIntent = new SendTextViewIntents(context, famousPopYouTubeIds[3]);
         maddonaCrazyForYouIntent.createOnClickListers(maddonaCrazyForYou);
 
+        //Adding intents for Home button to take load activity_main.xml
         Button goToHome = (Button) findViewById(R.id.go_home);
         goToHome.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,6 +59,7 @@ public class FamousPop extends AppCompatActivity {
             }
         });
 
+        //Adding intents for "Go to Classic" button to take load classic_songs.xml layout
         Button goToClassic = (Button) findViewById(R.id.go_to_classic);
         goToClassic.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -67,6 +69,7 @@ public class FamousPop extends AppCompatActivity {
             }
         });
 
+        //Adding intents for "Go to Top40" button to load top_40.xml layout
         Button goToTop40 = (Button) findViewById(R.id.go_to_top40);
         goToTop40.setOnClickListener(new View.OnClickListener() {
             @Override

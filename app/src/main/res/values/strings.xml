@@ -2,27 +2,25 @@
     <string name="app_name">Udacity Music App</string>
 
     <!--Famous pop string values-->
+    <string name="famous_pop">Famous Pop</string>
     <string name="mj_text_view_content">Michael Jackson - Beat It</string>
-    <string name="wh_always_love_yoi">hitney Houston - I Will Always Love You</string>
+    <string name="wh_always_love_yoi">Whitney Houston - I Will Always Love You</string>
     <string name="price_daddy_cool">Prince - Daddy Cool</string>
     <string name="madonna_crazy_for_you">Madonna - Crazy For You</string>
 
     <!--Top 40 Strings-->
+    <string name="top_40">Top 40</string>
     <string name="ch_my_way">Calvin Harris - My Way</string>
     <string name="bs_slumber_party">Britney Spears - Slumber Party</string>
     <string name="b_formation">Beyoncé - Formation</string>
     <string name="kp_rise">Katy Perry - Rise</string>
 
     <!--Classic Strings-->
+    <string name="classic_songs">Classic Songs</string>
     <string name="tb_young_love">Tab Hunter - Young Love</string>
     <string name="ep_love_letters">Elvis Presley - Love Letters"</string>
     <string name="j_faithfully">Journey - Faithfully</string>
     <string name="m_nothing_else_matters">Metallica - Nothing else matters</string>
-
-
-
-
-
 
     <!--Button string values-->
     <string name="go_home">Home</string>

@@ -5,47 +5,32 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.udacitymusicapp.MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context="com.example.android.udacitymusicapp.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
 
         <TextView
             android:id="@+id/pop_culture_text_view"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:background="#FF5722"
-            android:text="Pop Culture"
-            android:layout_margin="10dp"
-            android:textSize="45sp"
-            android:textColor="#FFFFFF"
-            android:gravity="center"/>
+            style="@style/TextViewsMainActivity"
+            android:background="@color/famousPopTextViewBackGround"
+            android:text="@string/famous_pop"/>
 
         <TextView
             android:id="@+id/Top_40_text_view"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:background="#01579B"
-            android:text="Top 40"
-            android:layout_margin="10dp"
-            android:textSize="45sp"
-            android:textColor="#FFFFFF"
-            android:gravity="center"/>
+            style="@style/TextViewsMainActivity"
+            android:background="@color/top40TextViewBackGround"
+            android:text="@string/top_40" />
 
         <TextView
             android:id="@+id/classic_text_view"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:background="#212121"
-            android:text="Classic"
-            android:layout_margin="10dp"
-            android:textSize="45sp"
-            android:textColor="#FFFFFF"
-            android:gravity="center"/>
+            style="@style/TextViewsMainActivity"
+            android:background="@color/classicSongsTextViewBackGround"
+            android:text="@string/classic_songs" />
 
     </LinearLayout>
 </ScrollView>

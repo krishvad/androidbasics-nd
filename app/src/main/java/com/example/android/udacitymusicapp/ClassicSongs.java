@@ -50,7 +50,7 @@ public class ClassicSongs extends AppCompatActivity {
         goToHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent goHomeIntent = new Intent(ClassicSongs.this,MainActivity.class);
+                Intent goHomeIntent = new Intent(ClassicSongs.this, MainActivity.class);
                 startActivity(goHomeIntent);
             }
         });
@@ -60,7 +60,7 @@ public class ClassicSongs extends AppCompatActivity {
         goToClassic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent goToClassicIntent = new Intent(ClassicSongs.this,Top40.class);
+                Intent goToClassicIntent = new Intent(ClassicSongs.this, Top40.class);
                 startActivity(goToClassicIntent);
             }
         });
@@ -70,7 +70,7 @@ public class ClassicSongs extends AppCompatActivity {
         goToFamousPop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent goToFamousPopIntent = new Intent(ClassicSongs.this,FamousPop.class);
+                Intent goToFamousPopIntent = new Intent(ClassicSongs.this, FamousPop.class);
                 startActivity(goToFamousPopIntent);
             }
         });

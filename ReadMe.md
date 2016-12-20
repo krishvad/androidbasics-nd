@@ -17,4 +17,4 @@ The layout structure comprises of
 * Strings are defined in strings.xml 
 
 ##To clone
-```git clone git@github.com:krishvad/androidbasics-nd.git
+`git clone git@github.com:krishvad/androidbasics-nd.git`

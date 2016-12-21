@@ -55,7 +55,7 @@
 
     <!--Common button styles-->
     <style name="ButtonStyle" parent="Theme.AppCompat.Light">
-        <item name="android:layout_width">wrap_content</item>s
+        <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_alignParentBottom">true</item>
@@ -65,5 +65,12 @@
 
     </style>
 
-
+    <!--TextView description styles-->
+    <style name="TextViewDescription" parent="android:TextAppearance.Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/activityPurpose</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_gravity">left</item>
+    </style>
 </resources>

@@ -43,6 +43,11 @@
                 android:background="@color/classicSongsTextViewBackGround"
                 android:text="@string/m_nothing_else_matters" />
 
+            <TextView
+                android:id="@+id/description"
+                style="@style/TextViewDescription"
+                android:text="@string/class_songs_activity_purpose"/>
+
 
         </LinearLayout>
 

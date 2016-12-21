@@ -14,6 +14,7 @@
         android:orientation="vertical"
         android:layout_gravity="center">
 
+
         <TextView
             android:id="@+id/pop_culture_text_view"
             style="@style/TextViewsMainActivity"
@@ -31,6 +32,11 @@
             style="@style/TextViewsMainActivity"
             android:background="@color/classicSongsTextViewBackGround"
             android:text="@string/classic_songs" />
+
+        <TextView
+            android:id="@+id/description"
+            style="@style/TextViewDescription"
+            android:text="@string/main_activity_purpose"/>
 
     </LinearLayout>
 </ScrollView>

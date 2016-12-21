@@ -28,5 +28,11 @@
     <string name="go_to_top40">Top 40</string>
     <string name="go_to_classic">Classic</string>
 
+    <!--TextView description names-->
+    <string name="main_activity_purpose">\n\n*This activity has a list of genres in the music app</string>
+    <string name="class_songs_activity_purpose">n\nThis activity has a list of classic songs</string>
+    <string name="pop_songs_activity_purpose">\n\nThis activity has a list of pop songs</string>
+    <string name="top_40_activity_purpose">\n\nThis activity has a list of top 40 songs</string>
+
 
 </resources>

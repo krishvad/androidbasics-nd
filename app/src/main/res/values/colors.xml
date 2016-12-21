@@ -19,5 +19,8 @@
     <color name="famousPopTextViewBackGround">#EF6C00</color>
     <color name="colorPrimaryFamousPop">#FF5722</color>
 
+    <!--Activity purpose TextView color-->
+    <color name="activityPurpose">#9E9E9E</color>
+
 
 </resources>

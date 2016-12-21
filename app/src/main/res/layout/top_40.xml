@@ -41,6 +41,11 @@
                 android:text="@string/kp_rise"
                 android:background="@color/top40TextViewBackGround"/>
 
+            <TextView
+                android:id="@+id/description"
+                style="@style/TextViewDescription"
+                android:text="@string/top_40_activity_purpose"/>
+
         </LinearLayout>
     </ScrollView>
 

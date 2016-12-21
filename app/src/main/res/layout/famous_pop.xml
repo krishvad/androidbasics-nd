@@ -41,6 +41,11 @@
                 android:background="@color/famousPopTextViewBackGround"
                 android:text="@string/madonna_crazy_for_you"/>
 
+            <TextView
+                android:id="@+id/description"
+                style="@style/TextViewDescription"
+                android:text="@string/pop_songs_activity_purpose"/>
+
         </LinearLayout>
     </ScrollView>
 

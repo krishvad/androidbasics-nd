@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-
+        <!--LinearLayout that holds the song TextViews-->
         <LinearLayout
             android:id="@+id/pop_culture_parent"
             android:layout_width="match_parent"
@@ -36,7 +36,6 @@
                 android:background="@color/classicSongsTextViewBackGround"
                 android:text="@string/j_faithfully" />
 
-
             <TextView
                 android:id="@+id/classic_4"
                 style="@style/TextView"
@@ -48,11 +47,11 @@
                 style="@style/TextViewDescription"
                 android:text="@string/class_songs_activity_purpose"/>
 
-
         </LinearLayout>
 
     </ScrollView>
 
+    <!--RelativeLayout with Button views for navigation-->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

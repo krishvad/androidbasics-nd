@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <!--LinearLayout that holds the song TextViews-->
         <LinearLayout
             android:id="@+id/famous_pop_container"
             android:layout_width="match_parent"
@@ -49,6 +50,7 @@
         </LinearLayout>
     </ScrollView>
 
+    <!--RelativeLayout with Button views for navigation-->
     <RelativeLayout
         android:id="@+id/footer"
         android:layout_width="match_parent"

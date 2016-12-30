@@ -45,7 +45,8 @@
             <TextView
                 android:id="@+id/description"
                 style="@style/TextViewDescription"
-                android:text="@string/class_songs_activity_purpose"/>
+                android:text="@string/class_songs_activity_purpose"
+                android:textSize="12sp"/>
 
         </LinearLayout>
 

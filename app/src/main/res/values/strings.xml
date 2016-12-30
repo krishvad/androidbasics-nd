@@ -29,10 +29,29 @@
     <string name="go_to_classic">Classic</string>
 
     <!--TextView description names-->
-    <string name="main_activity_purpose">\n\n*This activity has a list of genres in the music app</string>
-    <string name="class_songs_activity_purpose">n\nThis activity has a list of classic songs</string>
-    <string name="pop_songs_activity_purpose">\n\nThis activity has a list of pop songs</string>
-    <string name="top_40_activity_purpose">\n\nThis activity has a list of top 40 songs</string>
+    <string name="main_activity_purpose">
+        This activity has a list of genres in the music app.
+        They are static.
+    </string>
+    <string name="class_songs_activity_purpose">
+        This activity has a list of classic static song list. I did not use any API.
+        Taping on each TextView sends an Intent to open YouTube App with youtube video id.
+        If YouTube app is not present a Toast is displayed and an Intent to open the youtube video in a browser is set.
+        No external .aar files are used</string>
+
+    <string name="pop_songs_activity_purpose">
+        This activity has a list of static pop songs. I did not use any API.
+        Taping on each TextView sends an Intent to open YouTube App with youtube video id.
+        If YouTube app is not present a Toast is displayed and an Intent to open the youtube video in a browser is set.
+        No external .aar files are used
+    </string>
+
+    <string name="top_40_activity_purpose">
+        This activity has a list of static top 40 songs. I did not use any API.
+        Taping on each TextView sends an Intent to open YouTube App with youtube video id.
+        If YouTube app is not present a Toast is displayed and an Intent to open the youtube video in a browser is set.
+        No external .aar files are used
+    </string>
 
 
 </resources>

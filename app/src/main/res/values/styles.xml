@@ -6,7 +6,6 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="actionBarSize">@dimen/action_bar_height</item>
     </style>
 
     <!-- Famous pop layout  theme. -->
@@ -72,5 +71,7 @@
         <item name="android:textColor">@color/activityPurpose</item>
         <item name="android:textStyle">italic</item>
         <item name="android:layout_gravity">left</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">2sp</item>
     </style>
 </resources>
